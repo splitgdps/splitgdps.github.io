@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+main{
+    margin: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #333333;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar li:not(.name){
+    float: right;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #000000;
+}
+
+
+.name{
+    float: left;
+}
